@@ -1,4 +1,4 @@
-# LASOS 2026
+# Universitários + CBIS 2026 Project
 
 Machine-learning analysis of the relationship between the **U-SMILE** lifestyle
 domains and **GAD-7** anxiety severity, with SHAP-based explainability.
@@ -106,9 +106,8 @@ for class 0 / class 1.
 
 ## Notes
 
-- The final explainability model is **Logistic Regression**; the tree-based
+- The final explainability model for Global analysisis **Logistic Regression**; the tree-based
   models (XGBoost, Random Forest, LightGBM) and SVM are used as baselines
-  for comparison of precision / recall / F1.
+  for comparison of precision / recall / F1. Brazillian cutout is LightGBM, check article for
+  explanation. 
 - SMOTE is fit on the training fold only to avoid leakage.
-- The pipeline is a work in progress (see git history: "atualizando
-  pipeline (wip)").
