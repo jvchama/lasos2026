@@ -1,0 +1,15 @@
+# global.ipynb — third-party dependencies
+# setuptools<82: hyperopt imports pkg_resources (removed in setuptools 82+)
+setuptools<82
+pandas
+numpy
+openpyxl
+scikit-learn
+scipy
+matplotlib
+shap
+imbalanced-learn
+xgboost
+lightgbm
+hyperopt
+ipykernel
